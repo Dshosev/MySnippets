@@ -5,7 +5,7 @@ window.mobileAndTabletcheck = function() {
   console.log(check);
 
   if (check === true) {
-      jQuery('a[href$="https://web.whatsapp.com/send?phone=4936138030100"]').attr("href", "https://api.whatsapp.com/send?phone=4936138030100");
+      jQuery('a[href$="https://web.whatsapp.com/send?phone=PHONENUMBER"]').attr("href", "https://api.whatsapp.com/send?phone=PHONENUMBER");
   };
 
   return check;
